@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/resources/">
+    <Project Path="resources/TaskManagementSystem.BulkSeeder/TaskManagementSystem.BulkSeeder.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/TaskManagementSystem.API/TaskManagementSystem.API.csproj" />
+    <Project Path="src/TaskManagementSystem.Application/TaskManagementSystem.Application.csproj" />
+    <Project Path="src/TaskManagementSystem.Domain/TaskManagementSystem.Domain.csproj" />
+    <Project Path="src/TaskManagementSystem.Infrastructure/TaskManagementSystem.Infrastructure.csproj" />
+    <Project Path="src/TaskManagementSystem.Tests/TaskManagementSystem.Tests.csproj" />
+  </Folder>
+</Solution>

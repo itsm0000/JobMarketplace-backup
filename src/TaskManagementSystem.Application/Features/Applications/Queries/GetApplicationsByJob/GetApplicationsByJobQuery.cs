@@ -1,0 +1,13 @@
+using TaskManagementSystem.TaskComment.Common.DTOs;
+using TaskManagementSystem.TaskComment.Common.Models;
+using TaskManagementSystem.Domain.Entities;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TaskManagementSystem.TaskComment.Features.TaskComments.Queries.GetTaskCommentsByTask
+{
+    public record GetTaskCommentsByTaskQuery(Guid TaskPublicGuid, int PageSize = 20, long Cursor = 0)
+         : IRequest<PagedResult<TaskCommentListDto>>;
+}
